@@ -11,12 +11,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Covid Report
-I write a paragraph here. I will highlight that the total number of US cases is `r get_total_cases()`. And, the total number of US deaths is `r get_total_deaths()`. 
 
-(**Note**: Why are there no commas in the *total number of US deaths* ? Can you change `analysis.R` file so that the number is commented with commas?)
+The COVID 19 that we are measuring begins in early 2020, and as the date goes on, you can see a gradual increase in cases for about 6 months, then, almost immediately there is an immediate spike in cases that never really levels off. In these two years measured, there was a total of `r get_total_cases()` cases compared to `r get_total_deaths()` deaths. At the beginning of 2022, there was a massive spike in cases, so much so that the line of the graph goes almost vertical. Imagine a graph of the deaths, there would likely be a massive spike of deaths right there as well wouldn't there be? 
 
-I also want to show the chart:
+
 ``` {r echo=FALSE}
 cases_plot
 ```
 
+### The website name is:
+https://info201a-au2022.github.io./rmd-practice-admin-aidanbartlett0/
